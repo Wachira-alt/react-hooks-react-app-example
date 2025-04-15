@@ -1,9 +1,9 @@
-// TestComponent.js
+// src/TestComponent.js
 import React from "react";
 
 export default function TestComponent() {
   return (
-    <div className="video">
+    <div className="video" data-testid="test-component">
       <iframe
         width="560"
         height="315"
