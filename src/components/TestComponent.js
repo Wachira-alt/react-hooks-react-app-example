@@ -1,7 +1,7 @@
+// TestComponent.js
 import React from "react";
 
-// no need to modify anything in here. The final test is looking for the returned JSX from this component
-function TestComponent() {
+export default function TestComponent() {
   return (
     <div className="video">
       <iframe
@@ -16,5 +16,3 @@ function TestComponent() {
     </div>
   );
 }
-
-export default TestComponent;
